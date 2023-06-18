@@ -1,0 +1,115 @@
+body {
+    background: #1E2538;
+}
+
+
+.sign-in-form {
+    width: 50%;
+    margin: 24px auto 82px auto;
+    background: #191E2E;
+    border-radius: 10px;
+    padding: 24px 197px 24px 197px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-in-input {
+    background: #1E2538;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    width: 100%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 166.5%;
+    color: rgba(255, 255, 255, 0.6);
+    padding: 20px 26px;
+    margin-bottom: 14px;
+}
+
+.sign-in-input:focus {
+    border: 1px solid #F2F60F;
+}
+
+.sign-in-input:active {
+    border: 1px solid #c4c704;
+}
+
+.form-title {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 60px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.sign-in-button {
+    background: #F2F60F;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    width: 100%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 166.5%;
+    margin-bottom: 14px;
+    color: #151A26;
+    padding: 14px 0;
+    font-weight: bold;
+    transition: background 1s;
+}
+
+.sign-in-button:hover {
+    background: #151A26;
+    border: 1px solid #F2F60F;
+    color: #F2F60F;
+}
+
+.sign-in-button:active {
+    background: #151A26;
+    border: 1px solid #c4c704;
+    color: #F2F60F;
+}
+
+.policy {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140.2%;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-bottom: 14px;
+}
+
+.policy-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140.2%;
+    text-decoration-line: underline;
+    color: #F2F60F;
+}
+
+input[type="checkbox"] {
+    width: 30px;
+    height: 30px;
+    background-color: #ff0000;
+    margin-right: 10px;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+}
+
+@media(max-width: 1200px) {
+    .sign-in-form {
+        width: 90%;
+        padding: 20px;
+    }
+}
